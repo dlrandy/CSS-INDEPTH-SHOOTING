@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./2019-01-21-box-modle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <blockquote>
+      css 的box model指的是页面上元素的组成(content, padding, border, margin).
+      默认是content-box.
+      box-sizing来设置盒模型，border-box的时候width和height指的是包含border的宽度。
+    </blockquote>
+    <header><h1>Franklin Running Club</h1></header>
+    <!-- <div class="wrapper"> this element for table border-spacing-->
+      <div class="container">
+        <main class="main">
+          <h2>Come join us!</h2>
+          <p>
+            The Franklin Running club meets at 6:00pm every Thursday at the town
+            square. Runs are three to five miles, at your own pace.
+          </p>
+        </main>
+        <aside class="sidebar">
+            <a href="/twitter" class="button-link">follow us on Twitter</a>
+            <a href="/facebook" class="button-link">like us on Facebook</a>
+            <a href="/sponsors" class="sponsor-link">
+              become a sponsor
+            </a>
+        </aside>
+      </div>
+    <!-- </div> -->
+  </body>
+</html>
