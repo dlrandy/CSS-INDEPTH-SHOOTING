@@ -53,7 +53,7 @@ selector {
 ### grid align
 > grid module 的alignment除了和flex的一样，还有几个新的属性justify-content/justify-items/justify-self控制的是水平方向的； align-content/align-item/align-self控制的垂直方向上的。
 
-
+https://gridbyexample.com/examples/example37/
 
 
 
